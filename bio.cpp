@@ -1,16 +1,10 @@
-#include <iostream>
+//Local and Global Variables in C++
+#include<iostream>
 using namespace std;
-int main() {
-    string Name, Address;
-    int phoneNo;
-    cout<<"enter your name\n";
-    cin>>Name;
-    cout<<"My name is:\n"<<Name;
-    cout<<"\n enter your address:";
-    cin>>Address;
-    cout<<"My address is:\n"<<Address;
-    cout<<"\n enter your phone no:\n";
-    cin>>phoneNo;
-    cout<<"my phoneNo is:\n "<<phoneNo;
-    return 0;
+int x;//Global variable which if can't be assigned any value assign the value automatically as 0
+// also the global variables can be accessed anywhere inside the function or even outside the function
+int main()
+{
+    int x=10;// local variable which is defined only inside any function and can't be accessed outside the function and must be assigned any value otherwise it will take any garbage value automatically not 0
+    int y=20;
 }
