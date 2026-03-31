@@ -7,4 +7,6 @@ int main()
 {
     int x=10;// local variable which is defined only inside any function and can't be accessed outside the function and must be assigned any value otherwise it will take any garbage value automatically not 0
     int y=20;
+    cout<<x<<endl;
+    cout<<y<,endl;
 }
